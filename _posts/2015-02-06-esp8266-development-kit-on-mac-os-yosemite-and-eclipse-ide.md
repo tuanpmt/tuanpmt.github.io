@@ -72,7 +72,7 @@ At this point, you should be able to compile it, but how to check. Just:<br/>
 cd /esptools
 git clone https://github.com/tuanpmt/esp_mqtt
 cd esp_mqtt
-make -f Makefile.mac
+make 
 ```
 
 Compile NodeMcu
@@ -95,15 +95,15 @@ Install PySerial: http://sourceforge.net/projects/pyserial/
 	sudo python setup.py install
 
 **Eclipse->File->New->Makefile project exist with code**
-
+<br/>
 [![](http://i.imgur.com/HVRWsor.png)](http://i.imgur.com/HVRWsor.png)
 
-**Project properties->Build command: make -f Makefile.mac**
+**Project properties->Build command: make**
+<br/>
 [![](http://i.imgur.com/Gql8O3x.png)](http://i.imgur.com/Gql8O3x.png)
 
 **Add Make Target all, clean, flash**
-
-
+<br/>
 [![](http://i.imgur.com/VFOvWzd.png)](http://i.imgur.com/VFOvWzd.png)
 
 **Reference:**
