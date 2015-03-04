@@ -6,6 +6,7 @@ categories:
 excerpt: "MQTT protocol"
 tags: [mqtt, esp8266]
 redirect_from:
+    - /post/108428048879/what-is-mqtt/
     - /post/108428048879/
 comments: true
 ---
@@ -25,11 +26,11 @@ In an MQTT system, many nodes (called mqtt clients) connect to a mqtt server (ca
 
 - The three levels **QoS(Qualities of service)** are:
 
-**QoS0** The broker/client will deliver the message once, with no confirmation (fire and forget).
+    * **QoS0** The broker/client will deliver the message once, with no confirmation (fire and forget).
 
-**QoS1** The broker/client will deliver the message at least once, with confirmation required.
+    * **QoS1** The broker/client will deliver the message at least once, with confirmation required.
 
-**QoS2** The broker/client will deliver the message exactly once by using a four-step handshake.
+    * **QoS2** The broker/client will deliver the message exactly once by using a four-step handshake.
 
 **Use cases QoS**: https://code.google.com/p/mqtt4erl/wiki/QualityOfServiceUseCases
 

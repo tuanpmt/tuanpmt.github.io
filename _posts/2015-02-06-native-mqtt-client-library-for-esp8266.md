@@ -7,6 +7,8 @@ excerpt: "Native MQTT client library for ESP8266"
 tags: [iot, esp8266, mqtt]
 redirect_from:
     - /post/108150292789/
+    - /post/108150292789/native-mqtt-client-library-for-esp8266/
+comments: true
 ---
 
 **ESP8266** is a solution for internet connection via wifi with great price, and it will become more common for IOT applications where system libraries serve these applications become more complete and stable.
