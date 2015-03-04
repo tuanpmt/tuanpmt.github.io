@@ -1,6 +1,6 @@
 # Site wide configuration
 
-title:            Site Title
+title:            Tuan PM's tech blogs
 locale:           en_US
 url:              
 
@@ -8,13 +8,14 @@ url:
 # Jekyll configuration
 
 permalink:   /:categories/:title/
-markdown:    kramdown
+markdown:    redcarpet
 highlighter: pygments
 sass:
   sass_dir: _sass
   style: compressed
 gems:
   - jekyll-sitemap
+  - jekyll-redirect-from
 
 kramdown:
   auto_ids: true
@@ -23,15 +24,17 @@ kramdown:
   toc_levels: 1..6
   use_coderay: false
 
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "with_toc_data"]
 
 # Site owner
 owner:
-  name: Your Name
+  name: Tuan PM
   avatar: bio-photo.jpg
-  bio: "Describe your self."
+  bio: "Hello. I'm an electronic engineer."
   email: 
-  disqus-shortname: 
-  twitter: #username
+  disqus-shortname: tuanpmblog
+  twitter: tuanpmt
   facebook: #username
   google:
     plus: #username
@@ -40,7 +43,7 @@ owner:
     ad-client: 
     ad-slot: 
   bing-verify: 
-  github: #username
+  github: tuanpmt
   stackoverflow: #http://stackoverflow.com/users/123456/username
   linkedin: #username
   instagram: #username
