@@ -2,7 +2,6 @@
 layout: post
 title: "ESP8266 Development Kit on Mac Os Yosemite and Eclipse IDE"
 modified:
-categories: esp8266
 excerpt: "ESP8266 Development Kit on Mac Os Yosemite and Eclipse IDE"
 tags: [iot, esp8266, mqtt]
 redirect_from:
