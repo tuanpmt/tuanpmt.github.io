@@ -56,7 +56,7 @@ after that:
 
 ```bash
 source $HOME/.bash_profile
-```	
+```
 
 You need a tool to creation and handling of firmware files suitable for the ESP8266 chip. I am clone here: https://github.com/tommie/esptool-ck but it was an error exists on the Mac, not compiled, the pull request to resolve the error had not been interested. And I have to fork, edit, to be compile
 
@@ -81,7 +81,7 @@ Compile NodeMcu
 ```bash
 git clone https://github.com/nodemcu/nodemcu-firmware
 make
-```			
+```
 
 Next we will install Eclipse IDE, and configure it.
 
