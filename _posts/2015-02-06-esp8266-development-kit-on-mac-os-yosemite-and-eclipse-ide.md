@@ -12,6 +12,7 @@ comments: true
 
 
 After successful installation of development tools on [Windows with Eclipse IDE](http://www.esp8266.com/viewtopic.php?f=9&t=820) for ESP8266 and have pretty interesting time with the MQTT project (*[esp_mqtt](https://github.com/tuanpmt/esp_mqtt)*), I tried looking for someone who develop ESP8266 applications for Mac, discovered a lot of people do this, but there is no specific guidance. So I was tinkering, and record the steps in a specific way for those who are in need.
+<br/>
 
 [![](http://i.imgur.com/lqeRIZW.png?1)](http://i.imgur.com/lqeRIZW.png?1)
 
