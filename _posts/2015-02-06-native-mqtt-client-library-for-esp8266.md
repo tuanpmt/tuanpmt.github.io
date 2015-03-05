@@ -17,7 +17,7 @@ comments: true
 **esp_mqtt**
 ==========
 This is MQTT client library for ESP8266, port from: [MQTT client library for Contiki](https://github.com/esar/contiki-mqtt) (thanks)
-
+<br/>
 For Arduino user, please see here: ***[espduino](https://github.com/tuanpmt/espduino)***
 
 **Features:**
@@ -57,7 +57,8 @@ make SDK_BASE="/opt/Espressif/ESP8266_SDK" FLAVOR="release" all
 make ESPPORT="/dev/ttyUSB0" flash
 ```
 
-**Usage**
+**Usage:**
+
 ```c
 #include "ets_sys.h"
 #include "driver/uart.h"
