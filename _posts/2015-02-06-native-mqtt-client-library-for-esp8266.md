@@ -245,24 +245,16 @@ function setup() {
 }
 ```
 
-**Example projects using esp_mqtt:**<br/>
+###Example projects using esp_mqtt:
+
 - [https://github.com/eadf/esp_mqtt_lcd](https://github.com/eadf/esp_mqtt_lcd)
 
-**Limited:**<br/>
+###Limited:
 - Not fully supported retransmit for QoS1 and QoS2
 
-**Status:** *Pre release.*
+###Status:
+- Release
 
-[https://github.com/tuanpmt/esp_mqtt/releases](https://github.com/tuanpmt/esp_mqtt/releases)
-
-[MQTT Broker for test](https://github.com/mcollina/mosca)
-
-[MQTT Client for test](https://chrome.google.com/webstore/detail/mqttlens/hemojaaeigabkbcookmlgmdigohjobjm?hl=en)
-
-**Contributing:**
-
-***Feel free to contribute to the project in any way you like!***
-
-**Requried:**
-
-SDK esp_iot_sdk_v0.9.4_14_12_19 or higher
+### Reference:
+- [MQTT Broker for test](https://github.com/mcollina/mosca)
+- [MQTT Client for test](https://chrome.google.com/webstore/detail/mqttlens/hemojaaeigabkbcookmlgmdigohjobjm?hl=en)
