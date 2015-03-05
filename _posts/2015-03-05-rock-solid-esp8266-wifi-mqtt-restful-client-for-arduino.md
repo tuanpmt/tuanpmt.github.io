@@ -3,6 +3,8 @@ layout: post
 title: "Rock solid esp8266 wifi mqtt, restful client for arduino"
 modified:
 categories:
+redirect_from:
+    - /post/espduino/
 excerpt: "Rock solid esp8266 wifi mqtt, restful client for arduino"
 tags: [mqtt, esp8266, restful, REST, arduino]
 comments: true
