@@ -47,7 +47,7 @@ cd espduino
 
 **2. Program ESP8266:**
 
-- Wiring: ![Program Connection diagram](images/espduino/program_esp8266_bb.png)
+- Wiring: ![Program Connection diagram](/images/espduino/program_esp8266_bb.png)
 - Program release firmware:
 
 ```python
@@ -61,7 +61,7 @@ esp8266/tools/esptool.py -p COM1 write_flash 0x00000 esp8266/debug/0x00000.bin 0
 ```
 
 **3. Wiring:**
-![Program Connection diagram](images/espduino/espdruino_bb.png)
+![Program Connection diagram](/images/espduino/espdruino_bb.png)
 
 **4. Import arduino library and run example:**
 
