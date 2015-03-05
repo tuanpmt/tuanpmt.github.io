@@ -6,13 +6,13 @@ excerpt: "Tuan PM's Projects page"
 tags: [esp8266, mqtt, wifi, iot]
 ---
 
-- [esp_mqtt](https://github.com/tuanpmt/esp_mqtt)
+- [esp_mqtt](/post/esp_mqtt/)
 A native MQTT Client for ESP8266
 
 ----------------
 
-- [espduino](https://github.com/tuanpmt/espduino)
-MQTT Client for arduino using ESP8266 AT Command
+- [espduino](/post/espduino/)
+Rock solid esp8266 wifi mqtt, restful client for arduino
 
 --------------------
 - [nodemcu](https://github.com/nodemcu/nodemcu-firmware) (contribute)
