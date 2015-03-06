@@ -10,8 +10,6 @@ tags: [mqtt, esp8266, restful, REST, arduino, mbed, MCU]
 comments: true
 ---
 
-esp_bridge
-========
 ###Github Repository: [https://github.com/tuanpmt/esp_bridge](https://github.com/tuanpmt/esp_bridge)
 <iframe src="https://ghbtns.com/github-btn.html?user=tuanpmt&repo=esp_bridge&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>
 <br/>
