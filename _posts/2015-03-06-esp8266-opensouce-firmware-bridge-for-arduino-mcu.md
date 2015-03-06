@@ -1,19 +1,20 @@
 ---
 layout: post
-title: "esp_bridge esp8266 opensouce firmware bridge for Arduino and MCU"
+title: "esp8266 opensouce firmware bridge for Arduino and MCU"
 modified:
 categories:
 redirect_from:
     - /post/esp_bridge/
-excerpt: "esp_bridge esp8266 opensouce firmware bridge for Arduino and MCU"
+excerpt: "esp8266 opensouce firmware bridge for Arduino and MCU"
 tags: [mqtt, esp8266, restful, REST, arduino, mbed, MCU]
 comments: true
 ---
 
 esp_bridge
 ========
+###Github Repository: [https://github.com/tuanpmt/esp_bridge](https://github.com/tuanpmt/esp_bridge)
 <iframe src="https://ghbtns.com/github-btn.html?user=tuanpmt&repo=esp_bridge&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>
-
+<br/>
 This is source code for esp8266 support bridge for arduino or any MCU using SLIP protocol via Serial port. 
 ###Library for arduino: [https://github.com/tuanpmt/espduino](https://github.com/tuanpmt/espduino)
 
