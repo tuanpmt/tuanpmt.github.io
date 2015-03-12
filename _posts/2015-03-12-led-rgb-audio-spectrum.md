@@ -27,7 +27,7 @@ Youtube: [https://youtu.be/YXznM0IRcUU](https://youtu.be/YXznM0IRcUU)
 ![](https://github.com/tuanpmt/led-rgb-audio-spectrum/raw/master/images/dv_spectrum.png)
 
 - Row board: ```audio-spectrum-hardware\dv_spectrum_row```
-![](ttps://github.com/tuanpmt/led-rgb-audio-spectrum/raw/master/images/row.png)
+![](https://github.com/tuanpmt/led-rgb-audio-spectrum/raw/master/images/row.png)
 
 - Column board: ```audio-spectrum-hardware\dv_spectrum_col```
 ![](https://github.com/tuanpmt/led-rgb-audio-spectrum/raw/master/images/col.png)
