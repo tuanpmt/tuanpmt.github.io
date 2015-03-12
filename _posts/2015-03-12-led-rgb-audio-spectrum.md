@@ -23,19 +23,19 @@ Youtube: [https://youtu.be/YXznM0IRcUU](https://youtu.be/YXznM0IRcUU)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YXznM0IRcUU" frameborder="0" allowfullscreen></iframe>
 
 #installations
-1. Hardware Diagram: ```audio-spectrum-hardware\dv_spectrum_corel```
-![](images/dv_spectrum.png)
+###Hardware Diagram: ```audio-spectrum-hardware\dv_spectrum_corel```
+![](https://github.com/tuanpmt/led-rgb-audio-spectrum/raw/master/images/dv_spectrum.png)
 
-Row board: ```audio-spectrum-hardware\dv_spectrum_row```
+- Row board: ```audio-spectrum-hardware\dv_spectrum_row```
 ![](images/row.png)
 
-Column board: ```audio-spectrum-hardware\dv_spectrum_col```
-![](images/col.png)
+- Column board: ```audio-spectrum-hardware\dv_spectrum_col```
+![](https://github.com/tuanpmt/led-rgb-audio-spectrum/raw/master/images/col.png)
 
-Main board: ```audio-spectrum-hardware\dv_spectrum_main```
-![](images/controller.png)
+- Main board: ```audio-spectrum-hardware\dv_spectrum_main```
+![](https://github.com/tuanpmt/led-rgb-audio-spectrum/raw/master/images/controller.png)
 
-2. Firmware
+###Firmware
 ```c
 git clone --recursive https://github.com/tuanpmt/led-rgb-audio-spectrum.git
 ```
