@@ -6,7 +6,12 @@ excerpt: "Tuan PM's Projects page"
 tags: [esp8266, mqtt, wifi, iot]
 ---
 
-- [esp_mqtt](/post/esp_mqtt/)
+---------------------
+- [led-rgb-audio-spectrum](/post/led-rgb-audio-spectrum/)
+A native MQTT Client for ESP8266
+
+-----------------------------
+- [led-rgb-audio-spectrum](/post/led-rgb-audio-spectrum/)
 A native MQTT Client for ESP8266
 
 ---------------------
