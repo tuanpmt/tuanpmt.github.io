@@ -20,7 +20,7 @@ This application using [FFT library](http://www.embeddedsignals.com/ARM.htm) for
 
 #demonstration:
 Youtube: [https://youtu.be/YXznM0IRcUU](https://youtu.be/YXznM0IRcUU)
-[![Youtube](http://img.youtube.com/vi/YXznM0IRcUU/0.jpg)](https://youtu.be/YXznM0IRcUU)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YXznM0IRcUU" frameborder="0" allowfullscreen></iframe>
 
 #installations
 1. Hardware Diagram: ```audio-spectrum-hardware\dv_spectrum_corel```
