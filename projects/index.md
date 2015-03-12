@@ -7,7 +7,7 @@ tags: [esp8266, mqtt, wifi, iot]
 ---
 
 ---------------------
-- [led-rgb-audio-spectrum](/post/led-rgb-audio-spectrum/)
+- [led-rgb-audio-spectrum](/led-rgb-audio-spectrum/)
 RGB LED audio spectrum
 
 -----------------------------
