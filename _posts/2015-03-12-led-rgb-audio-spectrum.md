@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "LED rgb audio spectrum"
+title: "RGB LED audio spectrum"
 modified:
 categories:
 excerpt: "LED rgb audio fft spectrum analyzer"

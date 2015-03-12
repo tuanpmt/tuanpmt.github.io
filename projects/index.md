@@ -8,10 +8,10 @@ tags: [esp8266, mqtt, wifi, iot]
 
 ---------------------
 - [led-rgb-audio-spectrum](/post/led-rgb-audio-spectrum/)
-A native MQTT Client for ESP8266
+RGB LED audio spectrum
 
 -----------------------------
-- [led-rgb-audio-spectrum](/post/led-rgb-audio-spectrum/)
+- [esp_mqtt](/post/esp_mqtt/)
 A native MQTT Client for ESP8266
 
 ---------------------
