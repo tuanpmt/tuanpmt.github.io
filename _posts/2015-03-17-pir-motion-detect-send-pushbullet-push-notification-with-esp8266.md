@@ -10,6 +10,7 @@ comments: true
 
 #description
 ==============
+
 With ESP8266 is approximately $5 to be able to create your own one IoT devices connected to the internet and send a message alerting you to the phone when a motion detect by PIR sensor.
 
 In principle, when the device detects motion sensor PIR, it will send request to the pushbullet server with the information and your api key. All mobile devices that had installed pushbullet app will get this message almost immediately.
@@ -21,6 +22,7 @@ In principle, when the device detects motion sensor PIR, it will send request to
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-S1m-YRLOrU" frameborder="0" allowfullscreen></iframe>
 
 #installations
+
 1. Install pushbullet application [https://www.pushbullet.com/apps](https://www.pushbullet.com/apps)
 2. Register an account at [https://pushbullet.com](https://pushbullet.com) and try to find your api key at the top left screen (your account infomation). Login your appp with this account.
 3. Flash your ESP8266 with [esp_bridge] firmware (see: [https://github.com/tuanpmt/espduino])
