@@ -61,13 +61,25 @@ source $HOME/.bash_profile
 You need a tool to creation and handling of firmware files suitable for the ESP8266 chip. I am clone here: https://github.com/tommie/esptool-ck but it was an error exists on the Mac, not compiled, the pull request to resolve the error had not been interested. And I have to fork, edit, to be compile
 
 ```bash
+cd /esptools
 git clone https://github.com/tuanpmt/esptool-ck.git
 cd esptool-ck
 make
 chmod +x esptool
 ```
 
+Install PySerial: http://sourceforge.net/projects/pyserial/
+
+    tar xfvz pyserial-2.7.tar.gz
+    cd pyserial-2.7
+    sudo python setup.py install
+
+
+###UPDATE (23-March-2015)
+You can use [esptool.py](https://github.com/themadinventor/esptool) for program and extract firmware (Thanks Fredrik Ahlberg, i've used esptool.py for all of esp8266 projects)
+
 At this point, you should be able to compile it, but how to check. Just:<br/>
+
 
 ```bash
 cd /esptools
@@ -79,6 +91,7 @@ make
 Compile NodeMcu
 
 ```bash
+cd /esptools
 git clone https://github.com/nodemcu/nodemcu-firmware
 make
 ```
@@ -89,11 +102,7 @@ Download Install java 7: http://www.oracle.com/technetwork/java/javase/downloads
 
 Download Eclipse for Mac OS: https://www.eclipse.org/downloads/?osType=macosx
 
-Install PySerial: http://sourceforge.net/projects/pyserial/
 
-	tar xfvz pyserial-2.7.tar.gz
-	cd pyserial-2.7
-	sudo python setup.py install
 
 **Eclipse->File->New->Makefile project exist with code**
 <br/>
@@ -107,6 +116,15 @@ Install PySerial: http://sourceforge.net/projects/pyserial/
 <br/>
 [![](/images/espdev/VFOvWzd.png)](http://i.imgur.com/VFOvWzd.png)
 
-**Reference:**
+**Please make sure you have add PATH environment variables for eclipse:**
+- Eclipse menu: Preferences → C/C++ → Build→ Environment
+    - select Append variables to native environment
+    - click the Add button
+    - enter PATH in the Name field
+    - enter the new path, starting with the actual path where the toolchain binaries are (/esptools/esp-open-sdk/xtensa-lx106-elf/bin)
+    - click the OK button
+- click the OK button
 
-https://github.com/pfalcon/esp-open-sdk/issues/11
+**Reference:**
+Thanks [Stephane Schmuck](https://disqus.com/by/stephaneschmuck/) help me complete this article.
+[https://github.com/pfalcon/esp-open-sdk/issues/11](https://github.com/pfalcon/esp-open-sdk/issues/11)
