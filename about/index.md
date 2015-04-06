@@ -17,6 +17,7 @@ I also quite familiar web programming, especially the application systems using 
 * Deploying connected applications, IoT, M2M: GSM / GPS, Sensor Network, UIP, lwIP, MQTT, WIFI, Ethernet, RFID, Audio, Camera ...
 * Ability to write applications for hardware control from computer or phone (Android, BB10, WP8).
 
+
 Some pictures of project i've done or contribute with:
 <figure class="half">
     <a href="/images/inf.jpeg"><img src="/images/inf.jpeg"></a>
